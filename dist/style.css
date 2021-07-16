@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+
+   display: flex;
+   justify-content: center;
+   height: 4rem;
+   border: 1px solid black;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+    
+}
+
+main{
+    height: 100vh;
+    background-image: url("images/main-theme.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+     
+}
+
+.main-content{
+    background-image: url("images/main-theme.jpg");
+}
+
+.link-bar{
+    cursor: pointer;
+}
